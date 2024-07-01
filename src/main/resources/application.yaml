@@ -3,6 +3,8 @@ server:
   #  servlet:
   #    context-path: /example/path
   port: 8080
+  address: dev-hapi-fhir.razi.ai
+
 #Adds the option to go to eg. http://localhost:8080/actuator/health for seeing the running configuration
 #see https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.endpoints
 management:
